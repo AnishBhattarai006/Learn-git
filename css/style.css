@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    line-height:1.25;
+
+}
+
+h1{
+    color:#467689;
+    text-align: center;
+    
+    
+}
+h2{
+    text-align: center;
+    color: #cb721c;
+}
+footer{
+    background-color: #22466C;
+    color: #FFFFFF;
+}
+header{
+    text-align: center;
+}
+section{
+   margin-block: 50px;
+}
