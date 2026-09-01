@@ -1,8 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: sans-serif;
     font-size: 1.25rem;
     line-height:1.25;
 
+}
+img{
+    max-inline-size: 100%;
+    display: block;
 }
 
 h1{
@@ -12,16 +19,120 @@ h1{
     
 }
 h2{
-    text-align: center;
+    
+    text-align: left;
     color: #cb721c;
 }
-footer{
-    background-color: #22466C;
-    color: #FFFFFF;
+
+.primary-nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+}
+.primary-nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.primary-nav a:hover,.primary-nav a:focus-visible{
+    color: #6ee6e6;
 }
 header{
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
 }
 section{
    margin-block: 50px;
+}
+
+.expe{
+    color: rgb(234, 108, 12);
+}
+#list{
+    color: rgb(8, 8, 8);
+    font-size: 1.5rem;
+}
+a{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover,a:focus-visible{
+    color: green;
+}
+footer{
+     block-size: 110px;
+    border: #9ad4eb 20px solid;
+    text-align: center;
+    padding:  px;
+    margin:8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #6ee6e6;
+}
+.two-paragraph{
+    background-color: aqua;
+    color: rgb(234, 64, 152);
+}
+.wrapper{
+
+   max-inline-size: 1000px;
+   margin-inline: auto;
+
+}
+.layout1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 0px;
+    
+    
+}
+.layout2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:50px;
+
+}
+.bluebox{
+    background-color: #96b8dd;
+    text-align: center;
+   block-size: 300px;
+    border: #71ccf0 20px solid;
+    padding:  90px;
+    margin:10px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+ul{
+    list-style: circle;
+    color:black
+}
+li::marker{
+    color:red
+}
+.bluebox strong{
+    color: red;
+}
+.climber-bg{
+    color: white;
+    padding: 24px;
+    border: #9ad4eb 20px solid;
+    background-image: url(../images/simple-steps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.layout3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 0px;
+    
+    
 }
